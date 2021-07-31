@@ -99,4 +99,13 @@ Once the installation process is complete, you can run the following command at 
 $ npm run start
 ```
 
+#### Running the application like a DEV
+
+Automatic reload for code modification 
+
+```bash
+$ npm run start:dev --watch
+```
+
+
 This command starts the app with the HTTP server listening on the port defined in the `src/main.ts` file. Once the application is running, open your browser and navigate to `http://localhost:3000/`. You should see the `Hello World!` message.
